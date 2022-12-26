@@ -1,4 +1,4 @@
-package com.example.gem_kotlin
+package com.brucecompany.gem_kotlin
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

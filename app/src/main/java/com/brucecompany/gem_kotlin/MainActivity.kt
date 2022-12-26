@@ -1,7 +1,9 @@
 
-package com.example.gem_kotlin
+package com.brucecompany.gem_kotlin
 
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.clickable
@@ -15,11 +17,26 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.gem_kotlin.ui.theme.GEM_KotlinTheme
+import com.brucecompany.gem_kotlin.ui.theme.GEM_KotlinTheme
+import com.google.firebase.firestore.FirebaseFirestore
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val user: MutableMap<String, Any> =HashMap()
+        user["first"] = "Bruce"
+        user["last"] = "Wayne"
+        user["age"] = 30
+
+        FirebaseFirestore.getInstance().collection("users")
+            .add(user)
+            .addOnSuccessListener { documentReference ->
+                Log.d(TAG, "DocumentSnapshot added with ID: ${documentReference.id}")
+            }
+            .addOnFailureListener { e ->
+                Log.w(TAG, "Error adding document", e)
+            }
+
         setContent {
             GEM_KotlinTheme {
                 // A surface container using the 'background' color from the theme

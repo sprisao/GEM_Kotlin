@@ -1,4 +1,4 @@
-package com.example.gem_kotlin.ui.theme
+package com.brucecompany.gem_kotlin.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

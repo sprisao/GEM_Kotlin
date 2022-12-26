@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "592721340078",
+    "project_id": "gemnative-642d4",
+    "storage_bucket": "gemnative-642d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592721340078:android:dffb83275278d6e1aa2f3f",
+        "android_client_info": {
+          "package_name": "com.brucecompany.gem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592721340078-n01uhhs2pe9ootnbpn914h7gkr7gthch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brucecompany.gem",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "592721340078-98ogm20c8hhr2tkev4ppjj6agk3lcahj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAEixoaMVGstC6OBuNbOSnDTWH1GV8eSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592721340078-98ogm20c8hhr2tkev4ppjj6agk3lcahj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592721340078-cvaj46l7bmnpej005bipurseio36g8bg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.brucecompany.gem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592721340078:android:6cab6b22b95bf188aa2f3f",
+        "android_client_info": {
+          "package_name": "com.brucecompany.gem_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592721340078-98ogm20c8hhr2tkev4ppjj6agk3lcahj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAEixoaMVGstC6OBuNbOSnDTWH1GV8eSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592721340078-98ogm20c8hhr2tkev4ppjj6agk3lcahj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592721340078-cvaj46l7bmnpej005bipurseio36g8bg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.brucecompany.gem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592721340078:android:061aa30e9104a7e6aa2f3f",
+        "android_client_info": {
+          "package_name": "com.example.gem_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592721340078-98ogm20c8hhr2tkev4ppjj6agk3lcahj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAEixoaMVGstC6OBuNbOSnDTWH1GV8eSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592721340078-98ogm20c8hhr2tkev4ppjj6agk3lcahj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592721340078-cvaj46l7bmnpej005bipurseio36g8bg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.brucecompany.gem"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

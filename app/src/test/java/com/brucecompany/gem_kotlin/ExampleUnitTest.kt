@@ -1,4 +1,4 @@
-package com.example.gem_kotlin
+package com.brucecompany.gem_kotlin
 
 import org.junit.Test
 
