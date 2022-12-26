@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.gem_kotlin'
+    namespace 'com.brucecompany.gem_kotlin'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.gem_kotlin"
+        applicationId "com.brucecompany.gem_kotlin"
         minSdk 24
         targetSdk 33
         versionCode 1
